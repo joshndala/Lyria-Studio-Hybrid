@@ -6,3 +6,5 @@ pydub
 pydantic
 python-dotenv
 google-cloud-aiplatform
+google-generativeai
+aiofiles

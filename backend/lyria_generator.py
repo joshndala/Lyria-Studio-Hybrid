@@ -14,7 +14,6 @@ from google.oauth2 import service_account  # Required for manual credential load
 MODEL_ID = 'lyria-002'
 PROJECT_ID = os.environ.get("PROJECT_ID")
 LOCATION = os.environ.get("LOCATION", "us-central1")
-# Ensure this matches the key in your .env file
 CREDENTIALS_PATH = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
 
 async def generate_music_file(
